@@ -8,7 +8,7 @@ var santa;
 
 function setup() {
 	fill(0, 0, 0,0);
-	var cnv = createCanvas(windowWidth-480, windowHeight-200);
+	var cnv = createCanvas(windowWidth-280, windowHeight+200);
 	cnv.parent('main');
 	snow= loadImage("snow.gif");
 	santa= loadImage("santa.gif");
